@@ -1,0 +1,21 @@
+/*
+ * rm11Impl.c
+ * input file	: ../idl/rm11.idl
+ * generated at : Fri Mar 30 10:13:02 +0900 2012
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "CORBA_Object.h"
+#include "Giop.h"
+#include "Orbe.h"
+#include "rm11.h"
+
+CORBA_short rm11_op1(rm11 o, CORBA_short argin, CORBA_short *argout, CORBA_short *arginout,  CORBA_Environment *ev)
+{
+	/* need implementation */
+}
+
+
+

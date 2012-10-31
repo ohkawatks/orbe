@@ -1,0 +1,21 @@
+ The following files will be modified:
+  system.mhs
+--------------------------------------
+ The following changes will be made:
+ Core microblaze 7.10.c will be replaced by 7.30.b
+ Core plb_v46 1.03.a will be replaced by 1.05.a
+ Core lmb_bram_if_cntlr 2.10.a will be replaced by 2.10.b
+ Core xps_uartlite 1.00.a will be replaced by 1.02.a
+ Core xps_timer 1.00.a will be replaced by 1.02.a
+ Core mdm 1.00.c will be replaced by 1.00.g
+--------------------------------------
+ You must manually make the following changes:
+ Core microblaze 7.10.c needs to be replaced by 8.20.b
+ Core lmb_v10 1.00.a needs to be replaced by 2.00.b
+ Core lmb_bram_if_cntlr 2.10.a needs to be replaced by 3.00.b
+ Core xps_gpio 1.00.a needs to be replaced by 2.00.a
+ Core xps_ethernetlite 2.00.a needs to be replaced by 4.00.a
+ Core clock_generator 2.01.a needs to be replaced by 4.03.a
+ Core mdm 1.00.c needs to be replaced by 2.00.b
+ Core proc_sys_reset 2.00.a needs to be replaced by 3.00.a
+ Core xps_intc 1.00.a needs to be replaced by 2.01.a

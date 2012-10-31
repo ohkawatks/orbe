@@ -1,0 +1,6 @@
+interface rm11 {
+  typedef sequence<short> shortseq;
+	shortseq op1(	in shortseq argin, 
+			out shortseq argout, 
+			inout shortseq arginout);
+};

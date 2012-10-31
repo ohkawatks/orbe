@@ -1,0 +1,18 @@
+OPTION psf_version = 2.1.0 ; 
+
+BEGIN LIBRARY orbe_src 
+
+ OPTION drc = orbe_src_drc ; 
+ OPTION copyfiles = all;
+ OPTION DESC = "ORB Engine (for Developer).";
+
+BEGIN CATEGORY udp
+ PARAM name = CONFIG_SOCKET_CHANNEL_USE_UDP , 	desc = "Use transport channel UDP",  type = bool, default=false;
+ PARAM name = CONFIG_ORBE_IP_ADDRESS, 		desc = "IP address", type = string, default = "192.168.1.55";
+ PARAM name = CONFIG_ORBE_MAC_ADDRESS, 		desc = "MAC address", type = string, default = "00-00-01-02-03-04";
+END CATEGORY
+
+ PARAM name = CONFIG_SOCKET_CHANNEL_USE_UART, 	desc = "Use transport channel UART", type = bool, default=false;
+ PARAM name = CONFIG_ORBE_TIMER, 		desc = "Timer measurement for debug", type = bool, default=false;
+
+END LIBRARY 

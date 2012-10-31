@@ -1,0 +1,6 @@
+interface LCD {
+	void execute(in octet command);
+	void writeData(in octet data);
+	octet readData();
+};
+

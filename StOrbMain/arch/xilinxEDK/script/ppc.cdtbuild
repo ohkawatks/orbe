@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?fileVersion 3.0.0?>
+
+<ManagedProjectBuildInfo>
+<project id="StOrbMain-ppc.xygwin.ppc.exec.1015954150" name="Xilinx PowerPC Executable" projectType="xygwin.ppc.exec">
+<configuration id="ppc.xygwin.exec.debug.1845582338" name="Debug" description="" parent="ppc.xygwin.exec.debug" artifactName="StOrbMain-ppc" artifactExtension="elf" cleanCommand="rm -rf">
+<toolChain superClass="ppc.xygwin.exec.debug.toolchain" id="ppc.xygwin.exec.debug.toolchain.1552112119" name="Debug.toolchain">
+<tool superClass="ppc.xygwin.exec.debug.com.xilinx.mdt.edk.build.tool.xygwin.ppc.c.compiler" id="ppc.xygwin.exec.debug.com.xilinx.mdt.edk.build.tool.xygwin.ppc.c.compiler.1703395567" name="PowerPC C Compiler">
+<option superClass="xygwin.ppc.c.compiler.general.include.paths" id="xygwin.ppc.c.compiler.general.include.paths.1933079371" valueType="includePath">
+<listOptionValue value="../transport" builtIn="false"/>
+<listOptionValue value="../orbe" builtIn="false"/>
+</option>
+<option superClass="xygwin.ppc.c.compiler.debugging.level" id="xygwin.ppc.c.compiler.debugging.level.2111558319" value="xygwin.ppc.c.debugging.level.default" valueType="enumerated"/>
+<option superClass="xygwin.ppc.c.compiler.general.optimization.level" id="xygwin.ppc.c.compiler.general.optimization.level.2096651572" value="xygwin.ppc.c.optimization.level.none" valueType="enumerated"/>
+<option superClass="xygwin.ppc.c.preprocessor.def.symbols" id="xygwin.ppc.c.preprocessor.def.symbols.649073454" valueType="definedSymbols">
+<listOptionValue value="SOCKET_CHANNEL_USE_UART" builtIn="false"/>
+<listOptionValue value="SMALL" builtIn="false"/>
+</option>
+</tool>
+<tool superClass="ppc.xygwin.exec.debug.com.xilinx.mdt.edk.build.tool.xygwin.ppc.cpp.compiler" id="ppc.xygwin.exec.debug.com.xilinx.mdt.edk.build.tool.xygwin.ppc.cpp.compiler.63725828" name="PowerPC C++ Compiler"/>
+<tool superClass="com.xilinx.mdt.edk.build.tool.xygwin.ppc.c.link" id="com.xilinx.mdt.edk.build.tool.xygwin.ppc.c.link.2057087344" name="PowerPC C Linker">
+<option superClass="com.xilinx.mdt.edk.managedbuilder.ppc.c.linkerscript" id="com.xilinx.mdt.edk.managedbuilder.ppc.c.linkerscript.409090613" valueType="includePath">
+<listOptionValue value="../StOrbMain-ppc.ld" builtIn="false"/>
+</option>
+</tool>
+<tool superClass="com.xilinx.mdt.edk.build.tool.xygwin.ppc.cpp.link" id="com.xilinx.mdt.edk.build.tool.xygwin.ppc.cpp.link.897075961" name="PowerPC C++ Linker"/>
+<macros expandEnvironmentMacros="true"/>
+</toolChain>
+</configuration>
+<configuration id="ppc.xygwin.exec.release.426680522" name="Release" description="" parent="ppc.xygwin.exec.release" artifactName="StOrbMain-ppc" artifactExtension="elf" cleanCommand="rm -rf">
+<toolChain superClass="ppc.xygwin.exec.release.toolchain" id="ppc.xygwin.exec.release.toolchain.1553145059" name="Release.toolchain">
+<tool superClass="ppc.xygwin.exec.release.com.xilinx.mdt.edk.build.tool.xygwin.ppc.c.compiler" id="ppc.xygwin.exec.release.com.xilinx.mdt.edk.build.tool.xygwin.ppc.c.compiler.555407582" name="PowerPC C Compiler"/>
+<tool superClass="ppc.xygwin.exec.release.com.xilinx.mdt.edk.build.tool.xygwin.ppc.cpp.compiler" id="ppc.xygwin.exec.release.com.xilinx.mdt.edk.build.tool.xygwin.ppc.cpp.compiler.361141972" name="PowerPC C++ Compiler"/>
+<tool superClass="com.xilinx.mdt.edk.build.tool.xygwin.ppc.c.link" id="com.xilinx.mdt.edk.build.tool.xygwin.ppc.c.link.1947668515" name="PowerPC C Linker">
+<option superClass="com.xilinx.mdt.edk.managedbuilder.ppc.c.linkerscript" id="com.xilinx.mdt.edk.managedbuilder.ppc.c.linkerscript.301096464" valueType="includePath">
+<listOptionValue value="../StOrbMain-ppc.ld" builtIn="false"/>
+</option>
+</tool>
+<tool superClass="com.xilinx.mdt.edk.build.tool.xygwin.ppc.cpp.link" id="com.xilinx.mdt.edk.build.tool.xygwin.ppc.cpp.link.1457603553" name="PowerPC C++ Linker"/>
+</toolChain>
+</configuration>
+<configuration id="ppc.xygwin.exec.profile.1538887049" name="Profile" description="" parent="ppc.xygwin.exec.profile" artifactName="StOrbMain-ppc" artifactExtension="elf" cleanCommand="rm -rf">
+<toolChain superClass="ppc.xygwin.exec.profile.toolchain" id="ppc.xygwin.exec.profile.toolchain.2121296966" name="Profile.toolchain">
+<tool superClass="ppc.xygwin.exec.profile.com.xilinx.mdt.edk.build.tool.xygwin.ppc.c.compiler" id="ppc.xygwin.exec.profile.com.xilinx.mdt.edk.build.tool.xygwin.ppc.c.compiler.77465052" name="PowerPC C Compiler"/>
+<tool superClass="ppc.xygwin.exec.profile.com.xilinx.mdt.edk.build.tool.xygwin.ppc.cpp.compiler" id="ppc.xygwin.exec.profile.com.xilinx.mdt.edk.build.tool.xygwin.ppc.cpp.compiler.343746605" name="PowerPC C++ Compiler"/>
+<tool superClass="com.xilinx.mdt.edk.build.tool.xygwin.ppc.c.link" id="com.xilinx.mdt.edk.build.tool.xygwin.ppc.c.link.1146548604" name="PowerPC C Linker">
+<option superClass="com.xilinx.mdt.edk.managedbuilder.ppc.c.linkerscript" id="com.xilinx.mdt.edk.managedbuilder.ppc.c.linkerscript.121535536" valueType="includePath">
+<listOptionValue value="../StOrbMain-ppc.ld" builtIn="false"/>
+</option>
+</tool>
+<tool superClass="com.xilinx.mdt.edk.build.tool.xygwin.ppc.cpp.link" id="com.xilinx.mdt.edk.build.tool.xygwin.ppc.cpp.link.1360779399" name="PowerPC C++ Linker"/>
+</toolChain>
+</configuration>
+<macros/>
+</project>
+</ManagedProjectBuildInfo>

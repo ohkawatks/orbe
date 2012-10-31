@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?fileVersion 3.0.0?>
+
+<ManagedProjectBuildInfo>
+<project id="TutorialOrbe1.xygwin.mb.exec.1636452057" name="Xilinx MicroBlaze Executable" projectType="xygwin.mb.exec">
+<configuration id="mb.xygwin.exec.debug.305239249" name="Debug" description="" parent="mb.xygwin.exec.debug" artifactName="LedOrbe" artifactExtension="elf" cleanCommand="rm -rf">
+<toolChain superClass="mb.xygwin.exec.debug.toolchain" id="mb.xygwin.exec.debug.toolchain.520783886" name="Debug.toolchain">
+<tool superClass="mb.xygwin.exec.debug.com.xilinx.mdt.edk.build.tool.xygwin.mb.c.compiler" id="mb.xygwin.exec.debug.com.xilinx.mdt.edk.build.tool.xygwin.mb.c.compiler.689888575" name="MicroBlaze C Compiler">
+<option superClass="xygwin.mb.c.compiler.debugging.level" id="xygwin.mb.c.compiler.debugging.level.2073211574" value="xygwin.mb.c.debugging.level.default" valueType="enumerated"/>
+<option superClass="xygwin.mb.c.compiler.general.optimization.level" id="xygwin.mb.c.compiler.general.optimization.level.1995740828" value="xygwin.mb.c.optimization.level.none" valueType="enumerated"/>
+<option superClass="com.xilinx.mdt.edk.managedbuilder.mb.mbspec.appmode" id="com.xilinx.mdt.edk.managedbuilder.mb.mbspec.appmode.1477752382"/>
+<option superClass="xygwin.mb.c.preprocessor.def.symbols" id="xygwin.mb.c.preprocessor.def.symbols.1337950320"/>
+</tool>
+<tool superClass="mb.xygwin.exec.debug.com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.compiler" id="mb.xygwin.exec.debug.com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.compiler.1682843181" name="MicroBlaze C++ Compiler"/>
+<tool superClass="com.xilinx.mdt.edk.build.tool.xygwin.mb.c.link" id="com.xilinx.mdt.edk.build.tool.xygwin.mb.c.link.978086570" name="MicroBlaze C Linker">
+<option superClass="xygwin.mb.c.link.libs" id="xygwin.mb.c.link.libs.1329330538" valueType="libs">
+<listOptionValue value="Orbe" builtIn="false"/>
+</option>
+<option superClass="com.xilinx.mdt.edk.managedbuilder.mb.linkerscript" id="com.xilinx.mdt.edk.managedbuilder.mb.linkerscript.277096769"/>
+</tool>
+<tool superClass="com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.link" id="com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.link.884020074" name="MicroBlaze C++ Linker"/>
+<macros expandEnvironmentMacros="true"/>
+</toolChain>
+</configuration>
+<configuration id="mb.xygwin.exec.release.583128327" name="Release" description="" parent="mb.xygwin.exec.release" artifactName="LedOrbe" artifactExtension="elf" cleanCommand="rm -rf">
+<toolChain superClass="mb.xygwin.exec.release.toolchain" id="mb.xygwin.exec.release.toolchain.765191270" name="Release.toolchain">
+<tool superClass="mb.xygwin.exec.release.com.xilinx.mdt.edk.build.tool.xygwin.mb.c.compiler" id="mb.xygwin.exec.release.com.xilinx.mdt.edk.build.tool.xygwin.mb.c.compiler.1584499759" name="MicroBlaze C Compiler">
+<option superClass="com.xilinx.mdt.edk.managedbuilder.mb.mbspec.appmode" id="com.xilinx.mdt.edk.managedbuilder.mb.mbspec.appmode.1340506457"/>
+<option superClass="xygwin.mb.c.compiler.debugging.level" id="xygwin.mb.c.compiler.debugging.level.1214710922" value="xygwin.mb.c.debugging.level.none" valueType="enumerated"/>
+<option superClass="xygwin.mb.c.compiler.general.optimization.level" id="xygwin.mb.c.compiler.general.optimization.level.1219989835" value="xygwin.mb.c.optimization.level.most" valueType="enumerated"/>
+</tool>
+<tool superClass="mb.xygwin.exec.release.com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.compiler" id="mb.xygwin.exec.release.com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.compiler.1600071256" name="MicroBlaze C++ Compiler"/>
+<tool superClass="com.xilinx.mdt.edk.build.tool.xygwin.mb.c.link" id="com.xilinx.mdt.edk.build.tool.xygwin.mb.c.link.2048518938" name="MicroBlaze C Linker">
+<option superClass="xygwin.mb.c.link.libs" id="xygwin.mb.c.link.libs.567654296" valueType="libs">
+<listOptionValue value="Orbe" builtIn="false"/>
+</option>
+<option superClass="com.xilinx.mdt.edk.managedbuilder.mb.linkerscript" id="com.xilinx.mdt.edk.managedbuilder.mb.linkerscript.1370959621"/>
+</tool>
+<tool superClass="com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.link" id="com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.link.1435389508" name="MicroBlaze C++ Linker"/>
+<macros expandEnvironmentMacros="true"/>
+</toolChain>
+</configuration>
+<configuration id="mb.xygwin.exec.profile.331090487" name="Profile" description="" parent="mb.xygwin.exec.profile" artifactName="LedOrbe" artifactExtension="elf" cleanCommand="rm -rf">
+<toolChain superClass="mb.xygwin.exec.profile.toolchain" id="mb.xygwin.exec.profile.toolchain.811470901" name="Profile.toolchain">
+<tool superClass="mb.xygwin.exec.profile.com.xilinx.mdt.edk.build.tool.xygwin.mb.c.compiler" id="mb.xygwin.exec.profile.com.xilinx.mdt.edk.build.tool.xygwin.mb.c.compiler.48103366" name="MicroBlaze C Compiler">
+<option superClass="com.xilinx.mdt.edk.managedbuilder.mb.mbspec.appmode" id="com.xilinx.mdt.edk.managedbuilder.mb.mbspec.appmode.1382972639"/>
+<option superClass="xygwin.mb.c.compiler.debugging.level" id="xygwin.mb.c.compiler.debugging.level.1047736280" value="xygwin.mb.c.debugging.level.default" valueType="enumerated"/>
+<option superClass="xygwin.mb.c.compiler.general.optimization.level" id="xygwin.mb.c.compiler.general.optimization.level.1311097669" value="xygwin.mb.c.optimization.level.none" valueType="enumerated"/>
+</tool>
+<tool superClass="mb.xygwin.exec.profile.com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.compiler" id="mb.xygwin.exec.profile.com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.compiler.526942054" name="MicroBlaze C++ Compiler"/>
+<tool superClass="com.xilinx.mdt.edk.build.tool.xygwin.mb.c.link" id="com.xilinx.mdt.edk.build.tool.xygwin.mb.c.link.1865556206" name="MicroBlaze C Linker">
+<option superClass="com.xilinx.mdt.edk.managedbuilder.mb.linkerscript" id="com.xilinx.mdt.edk.managedbuilder.mb.linkerscript.145480056" valueType="includePath">
+<listOptionValue value="../TutorialOrbe1.ld" builtIn="false"/>
+</option>
+</tool>
+<tool superClass="com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.link" id="com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.link.1508465187" name="MicroBlaze C++ Linker"/>
+<macros expandEnvironmentMacros="true"/>
+</toolChain>
+</configuration>
+</project>
+</ManagedProjectBuildInfo>

@@ -1,0 +1,6 @@
+interface LED {
+	void turnOn(in long ID);
+	void turnOff(in long ID);
+	boolean getState(in long ID);
+};
+

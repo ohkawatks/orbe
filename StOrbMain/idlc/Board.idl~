@@ -1,0 +1,8 @@
+interface Board {
+  void initialize();
+  byte getStone(in byte x, in byte y);
+  void putStone(in byte x, in byte y, in byte stoneType);
+  byte checkConnect6();
+  byte checkPattern6(in byte pattern);
+  void popLastPosition(out byte x, out byte y, out byte direction);
+};

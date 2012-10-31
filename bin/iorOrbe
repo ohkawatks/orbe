@@ -1,0 +1,17 @@
+#
+# $Id: iorOrbe 793 2008-09-17 02:09:28Z takaya $
+# Copyright (C) 2008 AIST, National Institute of Advanced Industrial Science and Technology
+#
+
+#!/bin/sh
+
+JAVA_HOME=/usr/java/jdk1.6.0_03
+
+if [ $# -ne 3 ]
+then
+	echo Usage: iorOrbe I/Fname ipaddress port
+	exit 1
+fi
+
+$JAVA_HOME/bin/java -classpath ../lib/orbeUtils.jar jp.go.aist.utils.IORgenerator $1 $2 $3
+

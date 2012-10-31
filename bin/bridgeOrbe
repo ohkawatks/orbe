@@ -1,0 +1,44 @@
+#
+# $Id: bridgeOrbe 793 2008-09-17 02:09:28Z takaya $
+# Copyright (C) 2008 AIST, National Institute of Advanced Industrial Science and Technology
+#
+
+#!/bin/sh
+
+JAVA_HOME=/usr/java/jdk1.6.0_03
+export LD_LIBRARY_PATH=../lib
+
+usage()
+{
+	echo Usage: bridge [TCPtoUART] [TCPtoUDP] ...
+	exit 1
+}
+
+if [ $# -eq 0 ]
+then
+	usage
+fi
+
+if [ $1 = "TCPtoUART" ]
+then
+	if [ $# -ne 3 ]
+	then
+		echo Usage: bridge TCPtoUART COMport listenport
+		exit 1
+	fi
+	$JAVA_HOME/bin/java -classpath ../lib/orbeUtils.jar:../lib/RXTXcomm.jar jp.go.aist.utils.TCPtoUART $2 $3
+
+
+elif [ $1 = "TCPtoUDP" ]
+then
+	if [ $# -ne 4 ]
+	then
+		echo Usage: bridge TCPtoUDP listenport targethost targetport
+		exit 1
+	fi
+	$JAVA_HOME/bin/java -classpath ../lib/orbeUtils.jar jp.go.aist.utils.TCPtoUDP $2 $3 $4
+
+else
+	usage
+fi
+

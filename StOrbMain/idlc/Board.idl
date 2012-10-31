@@ -1,0 +1,8 @@
+interface Board {
+  void initialize();
+  octet getStone(in octet x, in octet y);
+  void putStone(in octet x, in octet y, in octet stoneType);
+  octet checkConnect6();
+  octet checkPattern6(in octet pattern);
+  void popLastPosition(out octet x, out octet y, out octet direction);
+};

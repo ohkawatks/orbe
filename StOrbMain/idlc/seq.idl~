@@ -1,0 +1,5 @@
+interface rm11 {
+	short[] op1(	in short[] argin, 
+			out short[] argout, 
+			inout short[] arginout);
+};

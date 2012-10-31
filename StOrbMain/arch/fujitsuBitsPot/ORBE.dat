@@ -1,0 +1,86 @@
+$CPUSERIES-911
+$Prj-Debug
+$0
+-g
+-w 1
+-D __BITSPOT__=1
+-D ENDIAN=0
+-D CAN_DEBUG=0
+-O 4
+-K SPEED
+-K SHORTADDRESS
+-B
+-K SCHEDULE
+-K A1
+-K SARG
+-Xdof
+-INF STACK
+-K EOPT
+-K LIB
+-K UNROLL
+$other
+-Xalign -DSOCKET_CHANNEL_USE_CAN -DCAN_DEBUG
+$time
+1232516162
+$end
+$1
+-g
+-w 2
+-O 0
+-linf ON
+-lsrc ON
+-lsec ON
+-lcros OFF
+-linc ON
+-lexp OBJ
+-pl 60
+-pw 100
+-tab 8
+-Xdof
+$other
+$time
+1226388165
+$end
+$2
+-g
+-AL 2
+-ro _INROM01=0x000E0000/0x000FFFFF
+-ra _INRAM01=0x0003F000/0x0003FFFF
+-sc CONST/Const+@INIT/Data=_INROM01
+-sc INIT/Data=_INRAM01
+-sc INTVECT=0x000FFC00
+-m
+-pl 60
+-pw 132
+-Xals
+-Xalr
+-na
+-w 1
+-Xdof
+$other
+$time
+1226390170
+$end
+$3
+-dt s,d,r,a
+-pl 60
+-pw 132
+-g
+-Xdof
+$other
+$time
+1226390170
+$end
+$4
+-Xdof
+$other
+$time
+1226388165
+$end
+$5
+$other
+$time
+1226388165
+$end
+$Prjend
+$CPUSERIESEND

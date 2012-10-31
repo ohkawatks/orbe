@@ -1,0 +1,31 @@
+/*
+ * LEDImpl.c
+ * input file	: LED.idl
+ * generated at : Mon Feb 09 15:09:24 +0900 2009
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "CORBA_Object.h"
+#include "Giop.h"
+#include "Orbe.h"
+#include "LED.h"
+
+void LED_turnOn(LED o, CORBA_long ID,  CORBA_Environment *ev)
+{
+	/* need implementation */
+}
+
+void LED_turnOff(LED o, CORBA_long ID,  CORBA_Environment *ev)
+{
+	/* need implementation */
+}
+
+CORBA_boolean LED_getState(LED o, CORBA_long ID,  CORBA_Environment *ev)
+{
+	/* need implementation */
+}
+
+
+

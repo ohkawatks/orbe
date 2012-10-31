@@ -1,0 +1,10 @@
+interface MOTOR {
+	void stepRight();
+	void stepLeft();
+	void startSpin(in octet turnD, in unsigned short speed);
+	void stopSpin();
+	octet getPosition();
+	void turnOn(in long ID);
+	void turnOff(in long ID);
+	boolean getState(in long ID);
+};

@@ -1,0 +1,224 @@
+[Version]
+DLLVer=02.5008.00.2
+PRJVer=1
+
+[PRJKIND]
+mode=1
+
+[CPUTYPE]
+CpuSerise=911
+
+[PrjInfo]
+Count=1
+PrjInfo-0=Debug
+Active=Debug
+
+[MEMBER]
+F0=31
+F1=0 f Source Files
+F2=0 c Debug\SRC\can_drv.c
+F3=0 c Debug\SRC\motor_drv.c
+F4=0 a Debug\SRC\Start91265.asm
+F5=0 c Debug\SRC\UART0.c
+F6=0 c Debug\SRC\vectors.c
+F7=0 f Source Files\orbe
+F8=0 c Debug\SRC\Giop.c
+F9=0 c Debug\SRC\Orbe.c
+F10=0 c Debug\SRC\OTable.c
+F11=0 c Debug\SRC\swapd.c
+F12=0 f Source Files\transport
+F13=0 c Debug\SRC\Can.c
+F14=0 f Source Files\motor
+F15=0 c Debug\SRC\main.c
+F16=0 c Debug\SRC\MOTOR.c
+F17=0 c Debug\SRC\MOTORImpl.c
+F18=0 f Include Files
+F19=0 h Debug\SRC\basic_types.h
+F20=0 h Debug\SRC\Can.h
+F21=0 h Debug\SRC\can_drv.h
+F22=0 h Debug\SRC\Giop.h
+F23=0 h Debug\SRC\MB91265.h
+F24=0 h Debug\SRC\MOTOR.h
+F25=0 h Debug\SRC\motor_drv.h
+F26=0 h Debug\SRC\Orbe.h
+F27=0 h Debug\SRC\OTable.h
+F28=0 h Debug\SRC\Socket.h
+F29=0 h Debug\SRC\swapd.h
+F30=0 h Debug\SRC\usr_def.h
+F31=0 h Debug\SRC\xbasic_types.h
+
+[OPTIONFILE]
+FILE=ORBE.dat
+
+[CPUTYPE-Debug]
+CsvFile=Lib\911\911.csv
+CpuName=MB91F267
+Count=0
+
+[DirInfo-Debug]
+CONFIG=Debug\
+OBJ=Debug\OBJ\
+LST=Debug\LST\
+OPT=Debug\OPT\
+
+[MEMBER-Debug]
+F0=14
+F1=0 m 1 Debug\ABS\MotorOrbe.abs
+F2=1 c 1 Debug\SRC\vectors.c
+F2-1=- Debug\SRC\MB91265.h
+F3=2 c 1 Debug\SRC\can_drv.c
+F3-1=- Debug\SRC\MB91265.h
+F3-2=- Debug\SRC\can_drv.h
+F4=3 c 1 Debug\SRC\motor_drv.c
+F4-1=- Debug\SRC\MB91265.h
+F4-2=- Debug\SRC\motor_drv.h
+F4-3=- Debug\SRC\usr_def.h
+F5=1 a 1 Debug\SRC\Start91265.asm
+F5-1=- Debug\SRC\MB91265.h
+F6=5 c 1 Debug\SRC\UART0.c
+F6-1=- Debug\SRC\MB91265.h
+F6-2=- Debug\SRC\usr_def.h
+F6-3=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\stdio.h
+F6-4=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\stddef.h
+F6-5=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\stdarg.h
+F7=5 c 1 Debug\SRC\Can.c
+F7-1=- Debug\SRC\can_drv.h
+F7-2=- Debug\SRC\Can.h
+F7-3=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\stdio.h
+F7-4=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\stddef.h
+F7-5=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\stdarg.h
+F8=11 c 1 Debug\SRC\Giop.c
+F8-1=- Debug\SRC\Orbe.h
+F8-2=- Debug\SRC\swapd.h
+F8-3=- Debug\SRC\CORBA_Object.h
+F8-4=- Debug\SRC\basic_types.h
+F8-5=- Debug\SRC\xbasic_types.h
+F8-6=- Debug\SRC\Giop.h
+F8-7=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\stdio.h
+F8-8=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\stddef.h
+F8-9=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\stdarg.h
+F8-10=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\stdlib.h
+F8-11=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\string.h
+F9=14 c 1 Debug\SRC\Orbe.c
+F9-1=- Debug\SRC\Socket.h
+F9-2=- Debug\SRC\basic_types.h
+F9-3=- Debug\SRC\xbasic_types.h
+F9-4=- Debug\SRC\Can.h
+F9-5=- Debug\SRC\can_drv.h
+F9-6=- Debug\SRC\Giop.h
+F9-7=- Debug\SRC\CORBA_Object.h
+F9-8=- Debug\SRC\swapd.h
+F9-9=- Debug\SRC\Orbe.h
+F9-10=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\stdio.h
+F9-11=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\stddef.h
+F9-12=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\stdarg.h
+F9-13=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\limits.h
+F9-14=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\string.h
+F10=11 c 1 Debug\SRC\OTable.c
+F10-1=- Debug\SRC\Giop.h
+F10-2=- Debug\SRC\basic_types.h
+F10-3=- Debug\SRC\xbasic_types.h
+F10-4=- Debug\SRC\CORBA_Object.h
+F10-5=- Debug\SRC\swapd.h
+F10-6=- Debug\SRC\Orbe.h
+F10-7=- Debug\SRC\OTable.h
+F10-8=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\stdio.h
+F10-9=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\stddef.h
+F10-10=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\stdarg.h
+F10-11=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\stdlib.h
+F11=10 c 1 Debug\SRC\swapd.c
+F11-1=- Debug\SRC\Orbe.h
+F11-2=- Debug\SRC\swapd.h
+F11-3=- Debug\SRC\CORBA_Object.h
+F11-4=- Debug\SRC\basic_types.h
+F11-5=- Debug\SRC\xbasic_types.h
+F11-6=- Debug\SRC\Giop.h
+F11-7=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\string.h
+F11-8=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\stddef.h
+F11-9=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\stdio.h
+F11-10=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\stdarg.h
+F12=11 c 1 Debug\SRC\MOTOR.c
+F12-1=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\stdio.h
+F12-2=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\stddef.h
+F12-3=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\stdarg.h
+F12-4=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\string.h
+F12-5=- Debug\SRC\Giop.h
+F12-6=- Debug\SRC\basic_types.h
+F12-7=- Debug\SRC\xbasic_types.h
+F12-8=- Debug\SRC\CORBA_Object.h
+F12-9=- Debug\SRC\swapd.h
+F12-10=- Debug\SRC\Orbe.h
+F12-11=- Debug\SRC\MOTOR.h
+F13=7 c 1 Debug\SRC\MOTORImpl.c
+F13-1=- Debug\SRC\CORBA_Object.h
+F13-2=- Debug\SRC\basic_types.h
+F13-3=- Debug\SRC\xbasic_types.h
+F13-4=- Debug\SRC\MOTOR.h
+F13-5=- Debug\SRC\MB91265.h
+F13-6=- Debug\SRC\usr_def.h
+F13-7=- Debug\SRC\motor_drv.h
+F14=13 c 1 Debug\SRC\main.c
+F14-1=- Debug\SRC\Orbe.h
+F14-2=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\stdio.h
+F14-3=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\stddef.h
+F14-4=- ..\..\..\..\..\Softune6\LIB\911\INCLUDE\stdarg.h
+F14-5=- Debug\SRC\swapd.h
+F14-6=- Debug\SRC\CORBA_Object.h
+F14-7=- Debug\SRC\basic_types.h
+F14-8=- Debug\SRC\xbasic_types.h
+F14-9=- Debug\SRC\Giop.h
+F14-10=- Debug\SRC\MOTOR.h
+F14-11=- Debug\SRC\usr_def.h
+F14-12=- Debug\SRC\MB91265.h
+F14-13=- Debug\SRC\motor_drv.h
+
+[BUILDMODE-Debug]
+kernel=1
+
+[RUNSET-Debug]
+CONVERT=1
+CONVERTKIND=0
+
+[DebState-Debug]
+SupCount=1
+Supfile-0=Debug\ORBE.sup
+Current=ORBE.sup
+AliasFile=
+CPURunMode=
+
+[AsmBefore]
+Count=0
+
+[AsmAfter]
+Count=0
+
+[CcBefore]
+Count=0
+
+[CcAfter]
+Count=0
+
+[LnkBefore]
+Count=0
+
+[LnkAfter]
+Count=0
+
+[LibBefore]
+Count=0
+
+[LibAfter]
+Count=0
+
+[CnvBefore]
+Count=0
+
+[CnvAfter]
+Count=0
+
+[ConfigBefore]
+Count=0
+
+[ConfigAfter]
+Count=0
+

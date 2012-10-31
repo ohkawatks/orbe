@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?fileVersion 3.0.0?>
+
+<ManagedProjectBuildInfo>
+<project id="StOrbTransportFPGA2.xygwin.mb.exec.129589495" name="Xilinx MicroBlaze Executable" projectType="xygwin.mb.exec">
+<configuration id="mb.xygwin.exec.debug.699975601" name="Debug" description="" parent="mb.xygwin.exec.debug" artifactName="StOrbMain-mb" artifactExtension="elf" cleanCommand="rm -rf">
+<toolChain superClass="mb.xygwin.exec.debug.toolchain" id="mb.xygwin.exec.debug.toolchain.1855403485" name="Debug.toolchain">
+<tool superClass="mb.xygwin.exec.debug.com.xilinx.mdt.edk.build.tool.xygwin.mb.c.compiler" id="mb.xygwin.exec.debug.com.xilinx.mdt.edk.build.tool.xygwin.mb.c.compiler.1348043092" name="MicroBlaze C Compiler">
+<option superClass="xygwin.mb.c.compiler.debugging.level" id="xygwin.mb.c.compiler.debugging.level.284374477" value="xygwin.mb.c.debugging.level.default" valueType="enumerated"/>
+<option superClass="xygwin.mb.c.compiler.general.optimization.level" id="xygwin.mb.c.compiler.general.optimization.level.1849682487" value="xygwin.mb.c.optimization.level.none" valueType="enumerated"/>
+<option superClass="xygwin.mb.c.preprocessor.def.symbols" id="xygwin.mb.c.preprocessor.def.symbols.555323255" valueType="definedSymbols">
+<listOptionValue value="SOCKET_CHANNEL_USE_UDP" builtIn="false"/>
+<listOptionValue value="UDP_DEBUG" builtIn="false"/>
+</option>
+<option superClass="com.xilinx.mdt.edk.managedbuilder.mb.mbspec.appmode" id="com.xilinx.mdt.edk.managedbuilder.mb.mbspec.appmode.1861696008"/>
+<option superClass="xygwin.mb.c.compiler.general.include.paths" id="xygwin.mb.c.compiler.general.include.paths.924143483" valueType="includePath">
+<listOptionValue value="../orbe" builtIn="false"/>
+<listOptionValue value="../test" builtIn="false"/>
+<listOptionValue value="../transport" builtIn="false"/>
+</option>
+</tool>
+<tool superClass="mb.xygwin.exec.debug.com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.compiler" id="mb.xygwin.exec.debug.com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.compiler.584526206" name="MicroBlaze C++ Compiler"/>
+<tool superClass="com.xilinx.mdt.edk.build.tool.xygwin.mb.c.link" id="com.xilinx.mdt.edk.build.tool.xygwin.mb.c.link.487958888" name="MicroBlaze C Linker">
+<option superClass="com.xilinx.mdt.edk.managedbuilder.mb.linkerscript" id="com.xilinx.mdt.edk.managedbuilder.mb.linkerscript.948412030" valueType="includePath">
+<listOptionValue value="../StOrbMain-mb.ld" builtIn="false"/>
+</option>
+<option superClass="xygwin.mb.c.link.libs" id="xygwin.mb.c.link.libs.1791026483" valueType="libs">
+<listOptionValue value="xil" builtIn="false"/>
+</option>
+</tool>
+<tool superClass="com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.link" id="com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.link.570388213" name="MicroBlaze C++ Linker"/>
+<macros expandEnvironmentMacros="true"/>
+</toolChain>
+</configuration>
+<configuration id="mb.xygwin.exec.release.387435429" name="Release" description="" parent="mb.xygwin.exec.release" artifactName="StOrbTransportFPGA2" artifactExtension="elf" cleanCommand="rm -rf">
+<toolChain superClass="mb.xygwin.exec.release.toolchain" id="mb.xygwin.exec.release.toolchain.1123969841" name="Release.toolchain">
+<tool superClass="mb.xygwin.exec.release.com.xilinx.mdt.edk.build.tool.xygwin.mb.c.compiler" id="mb.xygwin.exec.release.com.xilinx.mdt.edk.build.tool.xygwin.mb.c.compiler.1900512143" name="MicroBlaze C Compiler">
+<option superClass="com.xilinx.mdt.edk.managedbuilder.mb.mbspec.appmode" id="com.xilinx.mdt.edk.managedbuilder.mb.mbspec.appmode.1497228455"/>
+<option superClass="xygwin.mb.c.compiler.debugging.level" id="xygwin.mb.c.compiler.debugging.level.1653598766" value="xygwin.mb.c.debugging.level.none" valueType="enumerated"/>
+<option superClass="xygwin.mb.c.compiler.general.optimization.level" id="xygwin.mb.c.compiler.general.optimization.level.1730019912" value="xygwin.mb.c.optimization.level.most" valueType="enumerated"/>
+<option superClass="xygwin.mb.c.preprocessor.def.symbols" id="xygwin.mb.c.preprocessor.def.symbols.1534923010" valueType="definedSymbols">
+<listOptionValue value="SOCKET_CHANNEL_USE_UDP" builtIn="false"/>
+</option>
+<option superClass="xygwin.mb.c.compiler.general.include.paths" id="xygwin.mb.c.compiler.general.include.paths.968362997" valueType="includePath">
+<listOptionValue value="&quot;C:\users\hideki\workspace-orbe\20080528_S3E-UART-ETH-Timer-UDPonly\SDK_projects\StOrbTransportFPGA2\src&quot;" builtIn="false"/>
+<listOptionValue value="C:/users/hideki/workspace-orbe/20080528_S3E-UART-ETH-Timer-UDPonly/SDK_projects/StOrbTransportFPGA2/src" builtIn="false"/>
+<listOptionValue value="../src" builtIn="false"/>
+</option>
+</tool>
+<tool superClass="mb.xygwin.exec.release.com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.compiler" id="mb.xygwin.exec.release.com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.compiler.464023354" name="MicroBlaze C++ Compiler"/>
+<tool superClass="com.xilinx.mdt.edk.build.tool.xygwin.mb.c.link" id="com.xilinx.mdt.edk.build.tool.xygwin.mb.c.link.2034425465" name="MicroBlaze C Linker">
+<option superClass="com.xilinx.mdt.edk.managedbuilder.mb.linkerscript" id="com.xilinx.mdt.edk.managedbuilder.mb.linkerscript.882341109" valueType="includePath">
+<listOptionValue value="../StOrbMain-mb.ld" builtIn="false"/>
+</option>
+</tool>
+<tool superClass="com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.link" id="com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.link.1645758782" name="MicroBlaze C++ Linker"/>
+<macros expandEnvironmentMacros="true"/>
+</toolChain>
+</configuration>
+<configuration id="mb.xygwin.exec.profile.1320054933" name="Profile" description="" parent="mb.xygwin.exec.profile" artifactName="StOrbTransportFPGA2" artifactExtension="elf" cleanCommand="rm -rf">
+<toolChain superClass="mb.xygwin.exec.profile.toolchain" id="mb.xygwin.exec.profile.toolchain.1491384144" name="Profile.toolchain">
+<tool superClass="mb.xygwin.exec.profile.com.xilinx.mdt.edk.build.tool.xygwin.mb.c.compiler" id="mb.xygwin.exec.profile.com.xilinx.mdt.edk.build.tool.xygwin.mb.c.compiler.1201026288" name="MicroBlaze C Compiler">
+<option superClass="com.xilinx.mdt.edk.managedbuilder.mb.mbspec.appmode" id="com.xilinx.mdt.edk.managedbuilder.mb.mbspec.appmode.2032384297"/>
+</tool>
+<tool superClass="mb.xygwin.exec.profile.com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.compiler" id="mb.xygwin.exec.profile.com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.compiler.1584963305" name="MicroBlaze C++ Compiler"/>
+<tool superClass="com.xilinx.mdt.edk.build.tool.xygwin.mb.c.link" id="com.xilinx.mdt.edk.build.tool.xygwin.mb.c.link.1544386664" name="MicroBlaze C Linker">
+<option superClass="com.xilinx.mdt.edk.managedbuilder.mb.linkerscript" id="com.xilinx.mdt.edk.managedbuilder.mb.linkerscript.2040841199" valueType="includePath">
+<listOptionValue value="../StOrbMain-mb.ld" builtIn="false"/>
+</option>
+</tool>
+<tool superClass="com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.link" id="com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.link.1288835384" name="MicroBlaze C++ Linker"/>
+</toolChain>
+</configuration>
+<macros/>
+</project>
+</ManagedProjectBuildInfo>
